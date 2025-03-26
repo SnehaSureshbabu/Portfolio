@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="htm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2448fe297c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-------------------------------------------------------------------Header--------------------------------------------------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+               <a href="#contact" class="logo"><span>P</span>ortfolio</a>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p class="para1">Data Analyst | Web Developer</p>
+                <h1>Hi, I'm <span>Sneha</span> <br>from Kannur</h1>
+                <p class="para2">Blending Code & Data for Smarter Solutions</p>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------About--------------------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="Profile Image"></div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Im Sneha, a passionate data analyst and aspiring web developer with background in business and technology. I enjoy working with data, extracting insights, and creating impactful visualizations using Power BI, Python, SQL and Excel. I'm also exploring Web development to build interactive and user-friendly applications that blend data and technology seamlessly. A quick learner and problem solver, I thrive on challenges and love exploring new technologies to create meaningful solutions.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Analysis</span><br>Transforming raw data into insights using Power BI, Excel, and SQL</li>
+                        <li><span>Web Development</span><br>Designing Web using HTML, CSS, Javascript</li>
+                        <li><span>AI & Machine Learning</span><br>Building AI driven projects using Python, OpenCV, and Deep Learning</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>July 2024 - October 2024</span><br>Data Science Intern at Edu Tantr Pvt Ltd, Bangalore</li>
+                        <li><span>May 2023 - June 2023</span><br>Python Developer Intern at Coding Raja Technologies</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2024</span><br>MCA (Master of Computer Application)<br>Acharya Institute of Graduate Studies, Bangalore, Karnataka</li>
+                        <li><span>2019 - 2022</span><br>BBA (Bachelor of Business Administration)<br>Kannur University, Kannur, Kerala</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!---------------------------------------------------------Services---------------------------------------------------------------------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Design</h1>
+                    <p>Designing and developing responsive and dynamic websites with modern technologies. Wheather it's a pesonal Portfolio or a business website, I ensure seamless user experience</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h1>Data Analysis</h1>
+                    <p>Analyzing and visualizing data to uncover trends and insights. Helping businesses make data-driven decisions. Using Power BI, Excel and SQL for accurate reporting and analysis</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h1>AI & Machine Learning</h1>
+                    <p>Building intelligent solutions with AI-powered tools, including deep learning and machine learning for predictive analysis and automation</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------Portfolio-------------------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Latest Projects</h1>
+            <div class="work-list">
+               
+                <div class="work">
+                    <img src="images/BI work.png.jpg">
+                    <div class="layer">
+                    <h3>Blinkit Business Analysis</h3>
+                    <p>Interactive dashboard using Power BI to analyze Blinkit’s business performance. Visualized KPI’s and applied ETL to clean and transform sales data</p>
+                    <a href="https://github.com/SnehaSureshbabu/Blinkit-Business-Analysis"><i class="fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Pattern work.png.jpg">
+                    <div class="layer">
+                    <h3>Data Mining</h3>
+                    <p>Pattern mining system using Python to analyze frequent patterns in large datasets. Applied in Retail and Web usage mining</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/AI work.png.jpg">
+                    <div class="layer">
+                    <h3>Down Syndrome Detection</h3>
+                    <p>AI based Image classification model using Deep CNN to detect Down Syndrome in children from facial images.</p>
+                    <a href="https://github.com/SnehaSureshbabu/Down-Syndrome-Detection-using-Deep-CNN"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Coffee work.png.jpg">
+                    <div class="layer">
+                    <h3>Brewlytics</h3>
+                    <p>Interactive dashboard analysing coffee sales data with insights into revenue, trends, top-selling products, and regional performance.</p>
+                    <a href="https://github.com/SnehaSureshbabu/Coffee-Sales-Dashboard-using-Excel"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <a href="https://github.com/SnehaSureshbabu" class="btn">See More</a>
+    </div>
+        </div>
+    </div>
+    <!-----------------------------------------------------------Contact--------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:snehasureshbabu6@gmail.com"><i class="fa-solid fa-square-envelope"></i>snehasureshbabu6@gmail.com</p>
+                    <p><a href="tel:+919207541883"><i class="fa-solid fa-square-phone"></i>+91 9207541883</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sneha-sureshbabu-0b724a238" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://wa.me/919207541883" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/snehasureshbabu_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/SnehaSureshbabu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Sneha-Resume.pdf" target="_blank" class="btn btn2">Download Resume</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------------------------------------footer-------------------------------------------------------------------->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2025 | Powered by Sneha VV</p>
+    </div>
+    <div class="footer-icon">
+        <a href="#header"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+<!-----------------------------------------------------------JavaScript--------------------------------------------------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }         
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDhx9HLOIYrrZLEDnuFXuwfUYZKAJlkbB2yBHw9wfuQ8esDW0zVvvN2WnvJfMwrrPLTw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          msg.innerHTML = "";
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = " "
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+</body>
+</html>
