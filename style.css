@@ -404,7 +404,7 @@ nav ul li a:hover::after{
     }
     #header{
         width: 100%;
-        height: 90vh;
+        height: 50vh;
         background-image:url(images/phnbg-img.jpg);
         background-size: cover;
         background-position: center;
