@@ -409,8 +409,9 @@ nav ul li a:hover::after{
     background-size: cover;
     background-position: center;
     }
+
     .header-text{
-        margin-top: 70%;
+        margin-top:90%;
         font-size: 18px;
     }
     .header-text h1{
