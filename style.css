@@ -441,6 +441,9 @@ nav ul li a:hover::after{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+.btn{
+margin-top: 20px;
+}
     .btn.btn2{
         margin-top: 20px;
             display: inline-block;
