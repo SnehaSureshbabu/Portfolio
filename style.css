@@ -403,7 +403,7 @@ nav ul li a:hover::after{
         cursor: pointer;
     }
     #header{
-    width: 100%;
+    width: 50%;
     height: 50vh;
     background-image:url(images/home-img.webp);
     background-size: cover;
