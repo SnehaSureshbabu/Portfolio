@@ -379,9 +379,9 @@ nav ul li a:hover::after{
     }
    nav .fa-solid{
     display: none;
-   }
+}
    
-    /*-----------------------------------------------------Code for Small Screen-------------------------------------------------*/
+/*-----------------------------------------------------Code for Small Screen-------------------------------------------------*/
     @media only screen and (max-width:600px){
     nav .fa-solid{
         display: block;
