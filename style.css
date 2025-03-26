@@ -330,7 +330,7 @@ nav ul li a:hover::after{
 
     }
     form.btn2{
-        padding: 14px 60px;
+        padding: 14px 20px;
         font-size: 18px;
         margin-right: 20%;
         cursor: pointer;
