@@ -75,11 +75,16 @@ nav ul li a:hover::after{
 }
 .header-text p{
     color: black;
+    font-size: 30px;   
 }
 
 .header-text span{
     color: #791227;
 }
+.header-text h6{
+    font-size: 30px;
+    margin-top: 20px;
+    color: black;
 /*-------------------------------------------------------------About------------------------------------------------------------------------*/
 
  #about{
